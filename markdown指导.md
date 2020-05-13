@@ -179,7 +179,7 @@ UartInit(UART0, UartArg, NULL);
 
 除GPIO与VIC以外，添加的==图片==驱动库尽量使用统一的函数接口来操作底层硬件，所有设备均使用对应的Init()操作完成初始化工作，如TimerInit()、SspInit()、UartInit()等，初始化函数说明如表1.3所示，还可以添加==高亮的文字==，也可以添加==表情==:smile:。
 
-![这是我添加的图片](/picture.png "这是图片提示信息")
+![这是我添加的图片](https://github.com/mem222/public_note/raw/master/picture.png "这是图片提示信息")
 
 4.  **添加分割线**
 
